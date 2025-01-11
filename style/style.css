@@ -9,6 +9,9 @@
 /* body section  */
 body{
     font-family: "Open Sans", serif;
+    margin-left: 160px;
+    margin-right: 160px;
+    background-color: rgb(245, 245, 245);
 }
 
 /* nav section  */
@@ -17,10 +20,10 @@ body{
     justify-content: space-between;
 }
 .left-nav{
-    margin: 30px 0 30px 160px;
+    margin-top: 30px;
 }
 .right-nav{
-    margin: 30px 160px 30px 0;
+    margin: 30px 0 30px 0;
 }
 .btn-1{
     padding: 10px 20px;
@@ -33,7 +36,6 @@ body{
 /* banner section  */
 .banner{
     background-color: #C6E4D6;
-    margin: 0 160px ;
     display: flex;
     justify-content: space-between;
     padding: 80px 85px;
@@ -58,4 +60,32 @@ body{
     border: none;
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
+}
+
+/* pillars section  */
+.left-pillar{
+    margin: 80px 0 32px 0;
+}
+.group-1{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 302px;
+    background-color: rgb(255, 255, 255);
+    padding: 24px;
+    border-radius: 16px;
+}
+.card>img{
+    margin-bottom: 24px;
+}
+.card>h4{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
 }
