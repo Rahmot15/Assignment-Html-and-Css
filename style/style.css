@@ -31,6 +31,14 @@ body{
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
     background-color: inherit;
+    cursor: pointer;
+}
+.btn-1:hover{
+    transition-delay: 0s;
+    color: black;
+    background-color: yellow;
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow;
+    border-radius: 8px;
 }
 
 /* banner section  */
@@ -60,6 +68,14 @@ body{
     border: none;
     border-radius: 8px;
     background-color: rgb(0, 106, 80);
+    cursor: pointer;
+}
+.btn-2:hover{
+    transition-delay: 0s;
+    color: black;
+    background-color: green;
+    box-shadow: 0 0 10px mediumaquamarine, 0 0 20px mediumaquamarine, 0 0 40px mediumaquamarine;
+    border-radius: 8px;
 }
 
 /* pillars section  */
@@ -75,6 +91,10 @@ body{
     background-color: rgb(255, 255, 255);
     padding: 24px;
     border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.card:hover{
+    background-color: aquamarine;
 }
 .card>img{
     margin-bottom: 24px;
@@ -88,4 +108,102 @@ body{
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+/* Future section  */
+.group-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.card-2{
+    margin-top: 32px;
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.card-2:hover{
+    background-color: hotpink;
+}
+.card-3{
+    margin-top: 32px;
+    padding: 32px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 16px;
+}
+.card-3:hover{
+    background-color: greenyellow;
+}
+.card-4{
+    margin-top: 32px;
+    padding: 32px;
+    background-color: rgb(247, 235, 207);
+    border-radius: 16px;
+}
+.card-4:hover{
+    background-color: aqua;
+}
+.p-b{
+    color: rgba(14, 14, 14, 0.7);
+}
+.card-2>img{
+    margin-bottom: 24px;
+}
+.card-2>h4{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.card-2>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.btn-3{
+    margin-top: 24px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(84, 144, 245);
+    cursor: pointer;
+}
+.btn-3:hover{
+    transition-delay: 0s;
+    color: black;
+    background-color: mediumslateblue;
+    box-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow;
+    border-radius: 8px;
+}
+.btn-4{
+    margin-top: 24px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(9, 161, 92);
+    cursor: pointer;
+}
+.btn-4:hover{
+    transition-delay: 0s;
+    color: black;
+    background-color: hotpink;
+    box-shadow: 0 0 10px rgb(255, 144, 144), 0 0 20px rgb(255, 144, 144), 0 0 40px rgb(255, 144, 144);
+    border-radius: 8px;
+}
+.btn-5{
+    margin-top: 24px;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 194, 57);
+    cursor: pointer;
+}
+.btn-5:hover{
+    transition-delay: 0s;
+    color: black;
+    background-color: darkorange;
+    box-shadow: 0 0 10px rgb(253, 175, 253), 0 0 20px rgb(253, 175, 253), 0 0 40px rgb(253, 175, 253);
+    border-radius: 8px;
 }
