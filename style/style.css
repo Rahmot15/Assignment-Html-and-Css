@@ -207,3 +207,24 @@ body{
     box-shadow: 0 0 10px rgb(253, 175, 253), 0 0 20px rgb(253, 175, 253), 0 0 40px rgb(253, 175, 253);
     border-radius: 8px;
 }
+
+/* D.Yunus section */
+.younus{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 48px 24px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.img-quote{
+    position: absolute;
+    margin-top: -23px;
+}
+.younus>p{
+    color: rgba(14, 14, 14, 0.8);
+}
+.younus>h3{
+    color: rgba(14, 14, 14, 0.8);
+    margin: 12px 0 4px 0;
+}
