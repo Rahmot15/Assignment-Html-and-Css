@@ -73,8 +73,8 @@ body{
 .btn-2:hover{
     transition-delay: 0s;
     color: black;
-    background-color: green;
-    box-shadow: 0 0 10px mediumaquamarine, 0 0 20px mediumaquamarine, 0 0 40px mediumaquamarine;
+    background-color: rgb(0, 196, 85);
+    box-shadow: 0 0 10px rgb(153, 250, 218), 0 0 20px rgb(145, 255, 218), 0 0 40px rgb(137, 243, 208);
     border-radius: 8px;
 }
 
@@ -266,4 +266,39 @@ body{
     border: 1px solid rgb(14, 14, 14);
     border-radius: 4px;
     font-weight: 600;
+}
+
+/* Recent News section */
+.h1-recent{
+    margin: 80px 0 24px 0;
+}
+.paragraph-bd{
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.group-1{
+    background-color: rgb(255, 255, 255);
+    padding: 48px;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+.group-1>img{
+    border-radius: 24px;
+}
+.right-bd>h1{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.right-bd>img{
+    margin-bottom: 12px;
+}
+.d-t{
+    margin-bottom: 12px;
+}
+.right-bd>p>span{
+    margin-right: 12px;
+}
+.not{
+    margin-bottom: 32px;
 }
