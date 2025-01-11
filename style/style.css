@@ -302,3 +302,62 @@ body{
 .not{
     margin-bottom: 32px;
 }
+
+/* Donate section */
+.Donat-h{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 100px 0 100px;
+    margin-top: 80px;
+}
+.Donat-h>p{
+    margin: 24px 0 32px 0;
+    color: rgba(14, 14, 14, 0.7);
+}
+.taka-all{
+    display: flex;
+    gap: 24px;
+}
+.taka-1{
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.taka-1:hover{
+    background-color: rgba(117, 117, 255, 0.315);
+}
+.taka-2{
+    background-color: rgb(198, 228, 214);
+    padding: 40px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.taka-2:hover{
+    background-color: rgba(255, 180, 218, 0.336);
+}
+.taka-3:hover{
+    background-color: rgba(0, 255, 255, 0.308);
+}
+.taka-4:hover{
+    background-color: rgba(247, 250, 67, 0.308);
+}
+.Donat-h>input{
+    padding: 20px 40px;
+    margin: 32px 0 32px 0;
+    width: 1032px;
+    text-align: center;
+    border: none;
+    color: rgba(14, 14, 14, 0);
+    border-radius: 5px;
+}
+.Donat-h>input:hover{
+    background-color: rgba(250, 235, 215, 0.705);
+}
